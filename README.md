@@ -1,9 +1,11 @@
-# Read Only Attribute
+# Vision Cones
 
-Utility in the form of an attribute to make public fields greyed out in the editor.
+A package for adding gameplay vision cones to your game. Vision cones set vision cone specific triggers to seen or unseen.
 
 ## Usage
-```C#
-[ReadOnly] public float unEditablePublicFloat = 5;
-[ReadOnly, SerializeField] private float unEditablePrivateFloat = 5;
-```
+
+1. Add a VisionCone component to any GameObject you want a vision cone on
+2. Add a VisionCone.Trigger component to anything you want to detect with vision cones
+3. Add a script which checks if the trigger is visible by any vision cone or select from a list which vision cone(s) see this trigger.
+
+Also look at the samples for usage.
