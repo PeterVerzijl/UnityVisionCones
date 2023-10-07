@@ -1,0 +1,30 @@
+{
+  "name": "com.peterverzijl.visioncones",
+  "version": "1.0.0",
+  "displayName": "Vision Cones",
+  "description": "Tool for creating gameplay vision cone based triggers.",
+  "keywords": [
+    "Vision Cone",
+    "trigger",
+    "tool"
+  ],
+  "category": "tool",
+  "samples": [
+    {
+        "displayName": "Basic Sample",
+        "description": "Contains a simple sample with how to use the vision cones and triggers.",
+        "path": "Samples~/basic-sample"
+    },
+    {
+        "displayName": "Performance Sample",
+        "description": "Contains a performance sample with loads of triggers and vision cones",
+        "path": "Samples~/performance-sample"
+    }
+  ],
+  "author": {
+    "name": "Peter Verzijl",
+    "email": "peter@verzijl.com",
+    "url": "https://www.peterverzijl.com"
+  },
+  "type": "tool"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "com.peterverzijl.visioncones.Editor",
+    "rootNamespace": "VisionCones.Editor",
+    "references": [
+        "com.peterverzijl.visioncones.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
