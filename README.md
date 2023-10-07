@@ -2,6 +2,8 @@
 
 A package for adding gameplay vision cones to your game. Vision cones set vision cone specific triggers to seen or unseen.
 
+![Vision Cones Demo](./Documentation~/vision-cone-demo.gif)
+
 ## Usage
 
 1. Add a VisionCone component to any GameObject you want a vision cone on
