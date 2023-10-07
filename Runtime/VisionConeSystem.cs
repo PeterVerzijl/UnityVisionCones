@@ -99,13 +99,9 @@ namespace VisionCones {
                     float radiusSqrt = visionCone.radius * visionCone.radius;
                     float halfAngle  = visionCone.angle * 0.5f;
 
-                    Plane bottomPlane = new Plane(Vector3.down, Vector3.down * halfHeight);
-                    Plane topPlane    = new Plane(Vector3.up, Vector3.up * halfHeight);
-                    
                     bool isVisible = triggerRelativePosition.sqrMagnitude < radiusSqrt &&
                                      Vector3.Angle(Vector3.forward, triggerRelativePositionXZ) <= halfAngle &&
-                                       !bottomPlane.GetSide(triggerRelativePosition) &&
-                                       !topPlane.GetSide(triggerRelativePosition);
+                                     Mathf.Abs(triggerRelativePosition.y) <= halfHeight;
 
                     if (isVisible) {
                         if (!trigger.triggeringVisionCones.Contains(visionCone)) {
